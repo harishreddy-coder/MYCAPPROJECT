@@ -1,0 +1,24 @@
+#
+GET http://localhost:4004/odata/v4/admin/Authors
+Authorization: Basic alice
+
+###
+
+GET http://localhost:4004/odata/v4/admin/Authors?$search='Edgar'
+Authorization: Basic alice
+
+###
+
+GET http://localhost:4004/odata/v4/admin/Authors?$select=ID,name
+Authorization: Basic alice
+
+###
+
+GET http://localhost:4004/odata/v4/admin/Authors?$expand=books($select=ID,title)
+Authorization: Basic alice
+
+
+###
+
+GET http://localhost:4004/odata/v4/admin/Books?$select=author_ID,stocks
+Authorization: Basic alice

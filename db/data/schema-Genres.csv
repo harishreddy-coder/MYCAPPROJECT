@@ -1,0 +1,16 @@
+name,descr,ID,parent_ID
+Fiction,,10,,
+Drama,,11,10
+Poetry,,12,10
+Fantasy,,13,10
+Science Fiction,,14,10
+Romance,,15,10
+Mystery,,16,10
+Thriller,,17,10
+Dystopia,,18,10
+Fairy Tale,,19,10
+Non-Fiction,,20,
+Biography,,21,20
+Autobiography,,22,21
+Essay,,23,20
+Speech,,24,20
